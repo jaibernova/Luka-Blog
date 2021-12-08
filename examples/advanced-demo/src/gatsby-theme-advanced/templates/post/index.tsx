@@ -17,7 +17,7 @@ const Post = ({ data, pageContext }: PostTemplateProps): JSX.Element => {
       <main className="post-wrapper">
         <Article post={post} />
         <div className="related-posts-wrapper">
-          <h1>Related posts:</h1>
+          <h1>Podria interesarte:</h1>
           <FeedListing
             listing={pageContext.relatedPosts.map(Types.jsonPostIntoPost)}
           />

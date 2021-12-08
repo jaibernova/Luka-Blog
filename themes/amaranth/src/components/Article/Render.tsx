@@ -9,7 +9,7 @@ import MDXTheme from "./MdxTheme";
 import { WrapperCss } from "./Spacing";
 
 const Wrapper = styled.article`
-  width: 100%;
+  width: 80%;
   max-width: 100%;
 
   overflow-x: auto;

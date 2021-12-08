@@ -13,15 +13,15 @@ const Footer = (): JSX.Element => {
 
   return (
     <S.Wrapper>
-      <S.LinkGrid>
+      {/* <S.LinkGrid>
         <H3>LINKS</H3>
         <UserLinks includeRss />
-      </S.LinkGrid>
+      </S.LinkGrid> */}
       <S.Info>
         <Caption>
-          Based on{" "}
-          <AnimatedLink to="https://github.com/Vagr9K/gatsby-advanced-starter">
-            Gatsby Advanced Starter
+          Compra ya en{" "}
+          <AnimatedLink to="https://lukamascotas.com.co">
+            Luka Mascotas
           </AnimatedLink>
         </Caption>
         <Caption>{config.website.copyright}</Caption>

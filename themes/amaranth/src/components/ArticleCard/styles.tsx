@@ -30,6 +30,7 @@ export const Wrapper = styled.div<CardStyleProps>`
   display: grid;
   grid-gap: 8px;
 
+
   ${({ hero }) =>
     hero &&
     css`

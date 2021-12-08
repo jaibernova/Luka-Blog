@@ -12,13 +12,13 @@ const Navigation = (): JSX.Element => {
   return (
     <S.Wrapper>
       <S.HomeButton to="/">
-        <AdvancedLogo width={36} height={36} />
+        <AdvancedLogo width={40} height={40} />
         <S.SiteTitle>{config.website.titleShort}</S.SiteTitle>
       </S.HomeButton>
       <S.NavGrid>
         <S.NavButton to="/">Posts</S.NavButton>
-        <S.NavButton noBasePath to="/about">
-          About
+        <S.NavButton noBasePath to="https://lukamascotas.com.co">
+          La tienda
         </S.NavButton>
       </S.NavGrid>
     </S.Wrapper>

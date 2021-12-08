@@ -48,7 +48,7 @@ const ArticleShare = ({ post }: ArticleShareProps): JSX.Element => {
   return (
     <S.Wrapper aria-label="Share on social media">
       <S.LinkWrapper>
-        <S.Label>SHARE</S.Label>
+        <S.Label>COMPARTE</S.Label>
         <S.LinkGrid>
           <FacebookShareButton url={url} quote={excerpt}>
             <FacebookIcon size={40} />
