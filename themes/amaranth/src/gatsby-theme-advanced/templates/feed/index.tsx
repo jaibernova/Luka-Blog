@@ -45,7 +45,7 @@ const Feed = ({ pageContext }: FeedTemplateProps): JSX.Element => {
     <Layout>
       {getTitleOverride()}
       <ListingPageWrapper ref={feedElementRef}>
-        <ScreenReaderH1>Recent Posts</ScreenReaderH1>
+        <ScreenReaderH1>Posts recientes</ScreenReaderH1>
         <FeedListing listing={feedListing} noHero={noHero} />
       </ListingPageWrapper>
     </Layout>
